@@ -1,6 +1,18 @@
 .App {
   text-align: center;
 }
+h1{
+  font-size: 100px;
+  color: white;
+}
+h2{
+  font-size: 40px;
+  color: whitesmoke
+}
+h4{
+  font-size: 40px;
+}
+
 
 .App-logo {
   height: 40vmin;
@@ -27,6 +39,11 @@
 .App-link {
   color: #61dafb;
 }
+input{
+  border: 2px solid red
+}
+
+
 
 @keyframes App-logo-spin {
   from {
