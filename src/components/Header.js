@@ -1,9 +1,10 @@
 import React from 'react'
+import './../App.css'
 
 function Header() {
     return (
         <header style={headerStyle}>
-            <h2>Weather App</h2>
+            <h2><span className="con">Con's</span> Weather App</h2>
         </header>
     )
 }

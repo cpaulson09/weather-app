@@ -53,3 +53,103 @@ input{
     transform: rotate(360deg);
   }
 }
+
+
+/* 
+Media Queries
+
+options: all, print, screen, speech
+expressions: max-width(smaller than x size), min-width(bigger than x size)
+
+@media {options} mediatype and {expressions} {
+  CSS-Code;
+} 
+
+https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+
+*/
+
+/* For Devices smaller than 550px (phones) */
+@media only screen and (max-width: 550px) {
+  body {
+    background: rgb(5, 176, 228);
+  }
+  h1{
+    font-size: 50px;
+    color: rgb(134, 85, 247);
+  }
+  h2{
+    font-size: 20px;
+    color: rgb(122, 0, 223)
+  }
+  h4{
+    font-size: 20px;
+  }
+}
+
+/* For Devices smaller than 550px (Tablets) */
+@media only screen and (min-width: 550px) {
+  body {
+    background: rgb(9, 255, 9);
+  }
+  h1{
+    font-size: 75px;
+    color: rgb(78, 78, 78);
+  }
+  h2{
+    font-size: 30px;
+    color: rgb(0, 0, 0)
+  }
+  h4{
+    font-size: 30px;
+    color: rgb(0, 0, 0)
+  }
+  .con{
+    color: rgb(241, 15, 241)
+  }
+}
+
+/* For Devices bigger than 990px (laptops, small desktops) */
+@media only screen and (min-width: 990px) {
+  body {
+    background: linear-gradient(90deg, rgba(136,136,136,1) 35%, rgba(0,107,218,1) 100%);
+  }
+  h1{
+    font-size: 100px;
+    color: white;
+  }
+  h2{
+    font-size: 40px;
+    color: whitesmoke
+  }
+  h4{
+    font-size: 40px;
+  }
+  .con{
+    color: whitesmoke
+  }
+}
+
+/* For Devices bigger than 1200px (bigger desktops) */
+@media only screen and (min-width: 1200px) {
+  body {
+    background: linear-gradient(90deg, rgba(136,136,136,1) 35%, rgb(243, 32, 250) 100%);
+  }
+  h1{
+    font-size: 120px;
+    color: white;
+  }
+  h2{
+    font-size: 50px;
+    color: whitesmoke
+  }
+  h4{
+    font-size: 50px;
+  }
+  h5{
+    font-size: 40px;
+  }
+  .con{
+    color: rgb(250, 246, 25)
+  }
+}

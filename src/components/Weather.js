@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
+import './../App.css'
 
 export class Weather extends Component {   
     
     getStyle = () => {
         return{
-            
             color: 'white',
             textAlign: 'center',
         }
