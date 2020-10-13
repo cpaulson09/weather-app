@@ -1,4 +1,4 @@
-### Live on Surge [cpweather.surge.sh](https://cpweather.surge.sh/)
+### Live on Surge [cpweather.surge.sh](http://cpweather.surge.sh/)
 
 
 
